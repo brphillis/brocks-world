@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container-css {
+  pointer-events: none;
+}
+
+#startButton {
+  position: relative;
+  display: block;
+  margin: 21vh auto;
+  height: 5vh;
+  width: 18vmin;
+  font-size: 4vmin;
+  border: 4px solid white;
+  background-color: #ffffff00;
+  color: white;
+}
+
+#css {
+  background: red;
+}

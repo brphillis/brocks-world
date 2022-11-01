@@ -1,0 +1,11 @@
+Model Information:
+* title:	WIP - Sea Surface Temperature
+* source:	https://sketchfab.com/3d-models/wip-sea-surface-temperature-10074333d322466493fa6afc95b68829
+* author:	Loïc Norgeot (https://sketchfab.com/norgeotloic)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "WIP - Sea Surface Temperature" (https://sketchfab.com/3d-models/wip-sea-surface-temperature-10074333d322466493fa6afc95b68829) by Loïc Norgeot (https://sketchfab.com/norgeotloic) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

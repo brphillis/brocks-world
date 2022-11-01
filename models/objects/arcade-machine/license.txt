@@ -1,0 +1,11 @@
+Model Information:
+* title:	Final Fight Arcade
+* source:	https://sketchfab.com/3d-models/final-fight-arcade-c4e40934bb764f93b1d0ed42a0579fa2
+* author:	brysew (https://sketchfab.com/brysew)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Final Fight Arcade" (https://sketchfab.com/3d-models/final-fight-arcade-c4e40934bb764f93b1d0ed42a0579fa2) by brysew (https://sketchfab.com/brysew) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
