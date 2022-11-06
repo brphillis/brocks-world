@@ -1,3 +1,9 @@
+html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -6,30 +12,34 @@ body {
   margin: 0;
   padding: 0;
   overscroll-behavior: none;
+  overflow: hidden;
 }
 
-.container {
+#victoryPoints {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  background-color: black;
+  border: 4px solid #919191;
+}
+
+#startButtonContainer {
   position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.container-css {
-  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
 }
 
 #startButton {
   position: relative;
   display: block;
   margin: 21vh auto;
-  height: 5vh;
   width: 18vmin;
-  font-size: 4vmin;
-  border: 4px solid white;
-  background-color: #ffffff00;
+  background-color: black;
+  border: 4px solid #919191;
   color: white;
-}
-
-#css {
-  background: red;
+  font-weight: bolder;
+  padding: 10px;
 }

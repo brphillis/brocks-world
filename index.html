@@ -6,19 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fighting-game-assets/css/style.css" />
+    <style id="fightingGameStyles"></style>
   </head>
+
   <body>
-    <div
-      style="
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background-color: #ffffff00;
-      "
-    >
+    <div id="startButtonContainer">
       <button id="startButton">change</button>
     </div>
 
-    <script src="script.js" type="module"></script>
+    <div id="fightingGame">
+      <div class="fightingGameContainer">
+        <div class="healthBarContainer">
+          <!-- PLAYER HEALTH -->
+          <div class="playerHealthBarContainer">
+            <div style="height: 30px; width: 100%"></div>
+            <div id="playerHealth"></div>
+          </div>
+          <!-- TIMER -->
+          <div id="timer">10</div>
+          <!-- ENEMY HEALTH -->
+          <div class="enemyHealthBarContainer">
+            <div style="height: 30px; width: 100%"></div>
+            <div id="enemyHealth"></div>
+          </div>
+          <div></div>
+        </div>
+        <div id="displayTextContainer">
+          <div id="displayText">Tie</div>
+          <div class="fightingGameBtnContainer">
+            <button onclick="startFightingGame()">Play Again</button>
+            <button onclick="endFightingGame()">Exit</button>
+          </div>
+        </div>
+        <canvas></canvas>
+      </div>
+    </div>
+
+    <div id="victoryPoints"></div>
+
+    <script src="three.js" type="module"></script>
+    <script src="global.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+      integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="fighting-game-assets/js/classes.js"></script>
+    <script src="fighting-game-assets/js/index.js"></script>
   </body>
 </html>

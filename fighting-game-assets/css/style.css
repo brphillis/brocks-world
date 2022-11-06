@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#fightingGame {
+  font-family: "Press Start 2P", cursive;
+  position: absolute;
+  display: none;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 5vw;
+}
+
+.fightingGameContainer {
+  position: relative;
+  display: inline-block;
+  background-color: #000000;
+  border: 15px solid #000000;
+  border-radius: 20px;
+  outline: 25px solid #185196;
+  box-shadow: 5px 10px black;
+}
+
+#timer {
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 4px solid #919191;
+}
+
+.healthBarContainer {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.playerHealthBarContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50px 0 0 50px;
+  border-top: 2px solid rgb(151, 151, 151);
+  border-bottom: 2px solid rgb(151, 151, 151);
+  border-right: 2px solid rgb(151, 151, 151);
+}
+
+#playerHealth {
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 170, 22),
+    rgb(197, 197, 16),
+    rgb(230, 11, 11)
+  );
+  border-radius: 50px 0 0 50px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.enemyHealthBarContainer {
+  position: relative;
+  width: 100%;
+  border-radius: 0 50px 50px 0;
+  border-top: 2px solid rgb(151, 151, 151);
+  border-bottom: 2px solid rgb(151, 151, 151);
+  border-right: 2px solid rgb(151, 151, 151);
+}
+
+#enemyHealth {
+  position: absolute;
+  background-image: linear-gradient(
+    to left,
+    rgb(39, 170, 22),
+    rgb(197, 197, 16),
+    rgb(230, 11, 11)
+  );
+  border-radius: 0 50px 50px 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#displayTextContainer {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  top: 30%;
+  right: 0;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  background-color: black;
+  border: 4px solid #919191;
+  border-radius: 20px;
+  line-height: 10px;
+}
+
+#displayText {
+  margin-top: 15px;
+}
+
+.fightingGameContainer {
+  display: inline-block;
+}
+
+.fightingGameContainer button {
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  margin: 7px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
